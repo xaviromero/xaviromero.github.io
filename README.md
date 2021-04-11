@@ -1,2 +1,2 @@
 # XAVIER ROMERO
-<a href="xaviromero.github.io/VIDEOTEX.html"> VIDEOTEX </a>
+<a href="http://www.xaviromero.github.io/VIDEOTEX.html"> VIDEOTEX </a>
