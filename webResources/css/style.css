@@ -16,6 +16,13 @@ hr {
     padding-bottom: 40px;
     text-align: center;
 }
+#wrenchdiv {
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    perspective: 850px;
+}
 .grid-container {
     display: grid;
     display: flex;
@@ -23,4 +30,15 @@ hr {
     text-align: center;
     grid: 150px/ 150px 150px 150px;
     grid-gap: 50px;
+}
+.aviso {
+    color: red;
+}
+#wrench {
+    animation: rotate 10s infinite linear;
+}
+@keyframes rotate {
+    100% {
+        transform: rotateY(-360deg);
+    }
 }
