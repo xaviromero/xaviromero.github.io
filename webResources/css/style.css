@@ -23,13 +23,18 @@ a:visited {
 }
 a:hover {
     background: yellow;
+    color: black;
 }
 a:active {
     background: tomato;
+    color: black;
 }
 #header {
-    padding-bottom: 40px;
     text-align: center;
+}
+#nav {
+    text-align: center;
+    padding-bottom: 40px;
 }
 #wrenchdiv {
     margin: 50px auto;
@@ -37,6 +42,9 @@ a:active {
     height: 500px;
     text-align: center;
     perspective: 850px;
+}
+.menu {
+    display: inline-block;
 }
 .grid-container {
     display: grid;
