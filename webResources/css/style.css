@@ -12,6 +12,18 @@ hr {
     border-width: 2px;
     width: 75%
 }
+a:link {
+    color: red;
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    background: yellow;
+}
+a:active {
+    background: tomato;
+}
 #header {
     padding-bottom: 40px;
     text-align: center;
