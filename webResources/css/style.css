@@ -46,10 +46,6 @@ a:active {
 .aviso {
     color: red;
 }
-.vl {
-    border-left: 1px solid red;
-    height: 25px;
-}
 #wrench {
     animation: rotate 10s infinite linear;
 }
