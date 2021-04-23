@@ -5,6 +5,9 @@ body {
 h1 {
     font-family: monospace;
 }
+p {
+    color: red;
+}
 hr {
     border-style: none;
     border-top-style: ridge;
