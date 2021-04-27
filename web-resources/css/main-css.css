@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    color: white;
+}
+h1 {
+    font-family: monospace;
+}
+p {
+    color: red;
+}
+hr {
+    border-style: none;
+    border-top-style: ridge;
+    border-color: grey;
+    border-width: 2px;
+    width: 75%
+}
+a:link {
+    color: red;
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    background: white;
+    color: black;
+}
+a:active {
+    background: tomato;
+    color: black;
+}
+#header {
+    text-align: center;
+}
+#nav {
+    text-align: center;
+    padding-bottom: 25px;
+}
+#wrenchdiv {
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    perspective: 850px;
+}
+.menu {
+    display: inline-block;
+}
+.container-grid {
+    display: flex;
+    flex-basis: 150px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item {
+    text-align: center;
+    flex-basis: 150px;
+    width: 150px;
+    margin: 15px 25px;
+}
+.aviso {
+    color: red;
+}
+#wrench {
+    animation: rotate 10s infinite linear;
+}
+@keyframes rotate {
+    100% {
+        transform: rotateY(-360deg);
+    }
+}
