@@ -11,7 +11,7 @@ body {
     width: 500px;
     height: 500px;
     margin: 200px auto;
-    perspective: 800px;                 
+    perspective: 825px;                 
 }
 #boxDiv {
     width: 500px;
@@ -46,6 +46,46 @@ body {
 #bottom {
     transform: rotateX(90deg) translateY(250px);
     transform-origin: bottom;
+}
+#link1 {
+    transform: rotateY(90deg) translateX(-240px);
+    transform-origin: left;;
+}
+#link2 {
+    transform: translateX(-24px) translateY(-150px);
+    transform-origin: left;;
+}
+#link3 {
+    transform: rotateY(20deg) translateX(50px) translateY(20px);
+    transform-origin: left;;
+}
+#link4 {
+    transform: rotateY(-90deg) translateX(150px) translateY(-60px);
+    transform-origin: left;;
+}
+#link5 {
+    transform: rotateY(65deg) translateX(-60px);
+    transform-origin: left;;
+}
+#link6 {
+    transform: rotateY(50deg) translateX(-20px) translateY(68px);
+    transform-origin: left;;
+}
+#link7 {
+    transform: rotateY(-90deg) translateX(-150px);
+    transform-origin: left;;
+}
+#link8 {
+    transform: rotateY(-5deg) translateX(200px) translateY(200px);
+    transform-origin: left;;
+}
+#link9 {
+    transform: translateX(73px) translateY(-238px);
+    transform-origin: left;;
+}
+#link10 {
+    transform: rotateY(90deg) translateX(150px) translateY(197px);
+    transform-origin: left;;
 }
 img {
     width: 500px;
