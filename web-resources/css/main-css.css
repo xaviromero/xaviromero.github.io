@@ -4,6 +4,17 @@ body {
 }
 h1 {
     font-family: monospace;
+    color: red;
+}
+h2 {
+    color: red;
+}
+.bar {
+    padding: 0 10px;
+}
+h1:hover {
+    background: white;
+    color: black;
 }
 p {
     color: red;
@@ -31,10 +42,6 @@ a:active {
 }
 #header {
     text-align: center;
-}
-#nav {
-    text-align: center;
-    padding-bottom: 25px;
 }
 #wrenchdiv {
     margin: 50px auto;
