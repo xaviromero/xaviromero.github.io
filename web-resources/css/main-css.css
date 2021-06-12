@@ -12,9 +12,6 @@ h1:hover {
     background: white;
     color: black;
 }
-p {
-
-}
 hr {
     border-style: none;
     border-top-style: ridge;
@@ -26,7 +23,7 @@ a:link {
     color: white;
 }
 a:visited {
-    color: ;#b5b0ff
+    color: #b5b0ff;
 }
 a:hover {
     background: white;
