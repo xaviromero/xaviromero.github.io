@@ -5,9 +5,6 @@ body {
 h1 {
     font-family: monospace;
 }
-.bar {
-    padding: 0 10px;
-}
 hr {
     border-style: none;
     border-top-style: ridge;
@@ -33,23 +30,24 @@ a:active {
     color: black;
     text-decoration: none;
 }
+
+
 #header {
     text-align: center;
 }
-#wrenchdiv {
-    margin: 50px auto;
-    width: 500px;
-    height: 500px;
-    text-align: center;
-    perspective: 850px;
-}
+
+
 #navbar {
     text-align: center;
 }
 .navbaritem {
     display: inline-block;
     margin: 0 20px;
+    font-family: monospace;
+    font-size: 15px;
 }
+
+
 .container-grid {
     display: flex;
     flex-basis: 150px;
@@ -62,9 +60,20 @@ a:active {
     flex-basis: 150px;
     width: 150px;
     margin: 15px 25px;
+    font-family: monospace;
+    font-size: 15px;
 }
-.aviso {
-    color: red;
+
+
+
+
+
+#wrenchdiv {
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    perspective: 850px;
 }
 #wrench {
     animation: rotate 10s infinite linear;
@@ -73,4 +82,7 @@ a:active {
     100% {
         transform: rotateY(-360deg);
     }
+}
+.aviso {
+    color: red;
 }
