@@ -4,10 +4,6 @@ body {
 }
 h1 {
     font-family: monospace;
-    color: red;
-}
-h2 {
-    color: red;
 }
 .bar {
     padding: 0 10px;
@@ -17,7 +13,7 @@ h1:hover {
     color: black;
 }
 p {
-    color: red;
+
 }
 hr {
     border-style: none;
@@ -27,17 +23,17 @@ hr {
     width: 75%
 }
 a:link {
-    color: red;
+    color: white;
 }
 a:visited {
-    color: red;
+    color: ;#b5b0ff
 }
 a:hover {
     background: white;
     color: black;
 }
 a:active {
-    background: tomato;
+    background: #b5b0ff;
     color: black;
 }
 #header {
