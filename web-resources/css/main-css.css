@@ -21,17 +21,21 @@ hr {
 }
 a:link {
     color: white;
+    text-decoration: none;
 }
 a:visited {
-    color: #b5b0ff;
+    color: white;
+    text-decoration: none;
 }
 a:hover {
     background: white;
     color: black;
+    text-decoration: none;
 }
 a:active {
-    background: #b5b0ff;
+    background: white;
     color: black;
+    text-decoration: none;
 }
 #header {
     text-align: center;
