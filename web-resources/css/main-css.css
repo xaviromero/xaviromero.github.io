@@ -13,6 +13,12 @@ hr {
     width: 75%
 }
 
+#header {
+    text-align: center;
+}
+.title {
+    text-align: center;
+}
 
 a:link {
     color: white;
@@ -32,12 +38,8 @@ a:active {
 }
 
 
-#header {
-    text-align: center;
-}
-
-
-.navbar {
+#navbar {
+    padding-left: 0;
     text-align: center;
     margin-bottom: 35px;
     font-family: monospace;
@@ -45,7 +47,7 @@ a:active {
     list-style-type: none;
 }
 .navbaritem {
-    display: inline;
+    display: inline-block;
     margin: 0 15px;
 }
 .navbaritem a:hover {
@@ -74,6 +76,48 @@ a:active {
     font-family: monospace;
     font-size: 15px;
 }
+.itemimage {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.item:hover .itemimage {
+    filter: contrast(65%);
+  }
+
+
+
+#socialbar {
+
+    padding-left: 0;
+    text-align: center;
+    margin-top: 35px;
+    font-family: monospace;
+    list-style-type: none;
+}
+.socialitem {
+    display: inline-block;
+    margin: 0 15px;
+    transition: .3s ease;
+}
+.socialitem img {
+    width: 15px;
+}
+
+.socialitem:hover {
+    opacity: .5;
+}
+
+
+
+#footer {
+    text-align: center;
+}
+#footer p {
+    font-family: monospace;
+    font-size: 11px;
+}
+
 
 
 
