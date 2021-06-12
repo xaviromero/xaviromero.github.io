@@ -8,10 +8,6 @@ h1 {
 .bar {
     padding: 0 10px;
 }
-h1:hover {
-    background: white;
-    color: black;
-}
 hr {
     border-style: none;
     border-top-style: ridge;
@@ -47,8 +43,12 @@ a:active {
     text-align: center;
     perspective: 850px;
 }
-.menu {
+#navbar {
+    text-align: center;
+}
+.navbaritem {
     display: inline-block;
+    margin: 0 20px;
 }
 .container-grid {
     display: flex;
