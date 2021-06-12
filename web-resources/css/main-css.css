@@ -12,6 +12,8 @@ hr {
     border-width: 2px;
     width: 75%
 }
+
+
 a:link {
     color: white;
     text-decoration: none;
@@ -21,9 +23,7 @@ a:visited {
     text-decoration: none;
 }
 a:hover {
-    background: white;
-    color: black;
-    text-decoration: none;
+    text-decoration: underline;
 }
 a:active {
     background: white;
@@ -37,15 +37,25 @@ a:active {
 }
 
 
-#navbar {
+.navbar {
     text-align: center;
-}
-.navbaritem {
-    display: inline-block;
-    margin: 0 20px;
+    margin-bottom: 35px;
     font-family: monospace;
     font-size: 15px;
+    list-style-type: none;
 }
+.navbaritem {
+    display: inline;
+    margin: 0 15px;
+}
+.navbaritem a:hover {
+    color: black;
+    background-color: white;
+}
+.active {
+    text-decoration: underline;
+}
+
 
 
 .container-grid {
