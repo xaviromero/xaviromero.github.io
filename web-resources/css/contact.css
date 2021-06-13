@@ -1,7 +1,6 @@
 #bio {
     width: 50%;
     margin: 0 auto 60px auto;
-    height: 250px;
     text-align: left;
     line-height: 2;
     font-size: 15px;
@@ -20,4 +19,8 @@
     text-align: right;
     line-height: 2;
     font-size: 15px;
+}
+
+.cita {
+    text-align: right;
 }
