@@ -103,11 +103,9 @@ a:active {
 
 #footer {
     text-align: center;
-}
-#footer p {
+    display: inline-block;
     font-size: 11px;
 }
-
 
 
 
