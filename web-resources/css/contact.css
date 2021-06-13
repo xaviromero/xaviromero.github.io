@@ -1,15 +1,15 @@
 #bio {
     width: 50%;
     margin: 0 auto;
+    height: 250px;
     text-align: left;
+    line-height: 2;
+    font-size: 15px;
 }
 
 .bioimg {
     margin-right: 50px;
-    width: 350px;
+    width: 250px;
     border-radius: 100%;
-}
-.bioinfo {
-    display: inline-block;
-    height: 350px;
+    float: left;
 }
