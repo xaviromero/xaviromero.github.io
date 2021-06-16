@@ -1,5 +1,7 @@
 #portada-slideshow {
-    margin: 0 10px;
+    margin: 0 30px;
+    position: relative;
+    display: inline-block;
 }
 .slides  {
     display: none;
@@ -8,8 +10,9 @@
     display: inherit;
 }
 .back, .forward {
+    position: absolute;
     cursor: pointer;
-    padding: 7px;
+    padding: 15px;
     color: rgba(255, 255, 255, 0.733);
     font-weight: bold;
     font-size: 19px;
@@ -17,10 +20,12 @@
     user-select: none;
 }
 .forward {
-    float: right;
+    top: 47%;
+    right: -35px;
 }
 .back {
-    float: left;
+    top: 47%;
+    left: -35px;
 }
 
 .back:hover, .forward:hover {
