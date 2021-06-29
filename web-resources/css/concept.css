@@ -1,0 +1,20 @@
+.txt {
+    width: 50%;
+    margin: 0 auto;
+}
+.txt h3 {
+    text-align: left;
+    font-size: 20px;
+}
+.txt p {
+    text-align: justify;
+    text-justify: auto;
+    line-height: 2;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 950px) {
+    .txt {
+        width: 75%;
+    }
+}
