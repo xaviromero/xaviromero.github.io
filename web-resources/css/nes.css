@@ -48,15 +48,19 @@ a:active {
     margin: 0 auto 60px auto;
     font-size: 15px;
     display: block;
-
+    background-color: rgb(8, 8, 8);
+}
+.nes-item p {
+    padding-top: 18px;
 }
 
 .nes-img {
-    margin-right: 25px;
+    margin-right: 16px;
     opacity: 1;
     transition: .3s ease;
     backface-visibility: hidden;
     float: left;
+
 }
 .nes-item:hover .nes-img {
     filter: contrast(65%);
