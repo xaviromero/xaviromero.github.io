@@ -67,7 +67,24 @@ a:active {
 }
 
 
-
+#socialbar {
+    padding-left: 0;
+    margin: 35px 0 0 0;
+    font-family: monospace;
+    list-style-type: none;
+}
+.socialitem {
+    display: inline-block;
+    margin: 0 15px;
+    transition: .3s ease;
+}
+.socialitem img {
+    width: 15px;
+}
+.socialitem:hover {
+    opacity: .5;
+}
 #footer {
+    display: inline;
     font-size: 11px;
 }
