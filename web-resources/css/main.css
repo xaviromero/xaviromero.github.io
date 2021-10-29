@@ -11,8 +11,11 @@ body {
     display: inline-block;
     margin: 0 0 25px 0;
 }
-#title h1 {
-    margin: 0;
+#title {
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 75px;
+    align-self: left;
 }
 
 
@@ -46,6 +49,7 @@ a:active {
     font-family: monospace;
     font-size: 15px;
     list-style-type: none;
+    display: inline-block;
 }
 .navbaritem {
     display: inline-block;
