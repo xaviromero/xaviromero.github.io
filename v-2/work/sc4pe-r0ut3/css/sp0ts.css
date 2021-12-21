@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+  font-family: "Syne Mono", monospace;
+}
+
+.video-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.go-to-index {
+  text-align: right;
+}
