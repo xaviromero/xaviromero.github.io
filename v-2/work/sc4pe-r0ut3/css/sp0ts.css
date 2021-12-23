@@ -1,6 +1,7 @@
 body {
   background-color: black;
   font-family: "Syne Mono", monospace;
+  margin: 50px;
 }
 
 .video-fluid {

@@ -6,8 +6,7 @@ body {
 }
 
 .video-fluid {
-  width: 80%;
-  height: auto;
+  height: 600px;
 }
 
 #spaceroute {
