@@ -1,20 +1,28 @@
 body {
-    background-color: black;
-    font-family: monospace;
-    text-align: center;
+  background-color: black;
+  font-family: monospace;
+  text-align: center;
 }
 
 /* Navbar */
 
 .container-fluid {
-    padding: 3% 15%;
+  padding: 3% 15%;
 }
 
 .navbar-brand {
-    font-family: 'Miriam Libre', sans-serif;
-    font-size: 2rem;
+  font-family: "Miriam Libre", sans-serif;
+  font-size: 2rem;
 }
 
 .nav-item {
-    padding: 0 18px;
+  padding: 0 18px;
+}
+
+#log-in {
+  width: 500px;
+  height: 350px;
+  margin: auto;
+  margin-top: 250px;
+  color: white;
 }
