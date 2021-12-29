@@ -23,11 +23,11 @@
     
     <!-- JS Scripts -->
     <script>  
-        var scrl = "- You know, Agatha, [_1______ ]#[__1______ ]#[__2______ ]#[__2______ ]#[__2______ ]#[__2______ ] Internet its not computers, aplications, scripts [_1______ ]#[__1______ ]#[__2______ ]#[__2______ ]#[__2______ ]#[__2______ ] Its not a technology, but new world, new philosophy [_1______ ]#[__1______ ]#[__2______ ]#[__2______ ]#[__2______ ] New way of thinking, to understand the net u must be inside[_1______ ]#[__1______ ]#[__2______ ]#[__2______ ]#[__2______ ] U should come through it, u must be in it...   - New world? I want to try!";
+        var scrl = "... El tiempo que te queda es incierto ... El futuro no existe ... ¿Qué tan valioso es tu tiempo en esta vida? ... Si pudieras volver atrás ... Si pudieras vivir por tan solo un día en una memoria ... ¿Cuántos años de tu vida darías a cambio? .................";
         
         (function scrlsts() {
             document.title = scrl = scrl.substring(1, scrl.length) + scrl.substring(0, 1);
-            setTimeout(scrlsts, 80);
+            setTimeout(scrlsts, 250);
         })();
      </script>
 
@@ -35,23 +35,20 @@
 
 <body>
 
-    <section id="log-in">
-       <div class="mb-3 row">
-            <label for="inputUser" class="col-sm-2 col-form-label">User</label>
-            <div class="col-sm-10">
-                <input type="user" class="form-control" id="inputUser">
+    <div class="row">
+        <div class="col"></div>
+        <div class="mt-5 col-lg-5 col-sm-8 bg-light rounded-3">
+            <p class="fw-bold mx-5 mt-5 pb-3">LC985</p>                    
+            <div class="mx-5 my-4">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" name="password">
             </div>
-      </div>
-      <div class="mb-3 row">
-            <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-            <div class="col-sm-10">
-                <input type="password" class="form-control" id="inputPassword">
+            <div class="mx-5 my-4">
+                <button type="submit" class="btn btn-dark bg-dark bg-gradient mb-3">Login</button>
             </div>
-      </div>
-      <div class="col-auto">
-        <button type="submit" class="btn btn-light mb-3">Confirm identity</button>
-      </div>
-    </section>
+        </div>
+        <div class="col"></div>
+        </div>
 
 </body>
 
