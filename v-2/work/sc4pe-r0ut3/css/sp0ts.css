@@ -2,6 +2,7 @@ body {
   background-color: black;
   font-family: "Syne Mono", monospace;
   margin: 50px;
+  color: rgb(51, 255, 0);
 }
 
 .video-fluid {
