@@ -1,120 +1,104 @@
 body {
-    margin: 50px 0px;
-    background-color: black;
-    color: white;
-    font-family: monospace;
-    text-align: center;
+  height: 100%;
+  margin: 50px 0px;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  text-align: center;
 }
 #soon {
-    color: red;
+  color: red;
 }
 
 #header {
-    display: inline-block;
-    margin: 0 0 25px 0;
+  display: inline-block;
+  margin: 0 0 25px 0;
 }
 #title {
-    display: inline-block;
-    font-size: 25px;
-    margin-right: 75px;
-    align-self: left;
+  display: inline-block;
+  font-size: 25px;
+  margin-right: 75px;
+  align-self: left;
 }
-
-
-
 
 a:link {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 a:visited {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 a:active {
-    background: white;
-    color: black;
-    text-decoration: none;
+  background: white;
+  color: black;
+  text-decoration: none;
 }
-
-
-
-
-
 
 #navbar {
-    padding-left: 0;
-    margin: 0 0 35px 0;
-    font-family: monospace;
-    font-size: 15px;
-    list-style-type: none;
-    display: inline-block;
+  padding-left: 0;
+  margin: 0 0 35px 0;
+  font-family: monospace;
+  font-size: 15px;
+  list-style-type: none;
+  display: inline-block;
 }
 .navbaritem {
-    display: inline-block;
-    margin: 0 15px;
+  display: inline-block;
+  margin: 0 15px;
 }
 .navbaritem a:hover {
-    color: black;
-    background-color: white;
-    text-decoration: none;
+  color: black;
+  background-color: white;
+  text-decoration: none;
 }
 .active a {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-
-
-
-
-
 
 .container-grid {
-    display: flex;
-    flex-basis: 150px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-basis: 150px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .item {
-    flex-basis: 150px;
-    width: 150px;
-    margin: 15px 25px;
-    font-size: 15px;
+  flex-basis: 150px;
+  width: 150px;
+  margin: 15px 25px;
+  font-size: 15px;
 }
 .itemimage {
-    opacity: 1;
-    transition: .3s ease;
-    backface-visibility: hidden;
+  opacity: 1;
+  transition: 0.3s ease;
+  backface-visibility: hidden;
 }
 .item:hover .itemimage {
-    filter: contrast(65%);
+  filter: contrast(65%);
 }
-
-
-
-
 
 #socialbar {
-    padding-left: 0;
-    margin: 35px 0 0 0;
-    font-family: monospace;
-    list-style-type: none;
+  padding-left: 0;
+  margin: 35px 0 0 0;
+  font-family: monospace;
+  list-style-type: none;
 }
 .socialitem {
-    display: inline-block;
-    margin: 0 15px;
-    transition: .3s ease;
+  display: inline-block;
+  margin: 0 15px;
+  transition: 0.3s ease;
 }
 .socialitem img {
-    width: 15px;
+  width: 15px;
 }
 .socialitem:hover {
-    opacity: .5;
+  opacity: 0.5;
 }
 #footer {
-    display: inline;
-    font-size: 11px;
+  display: inline;
+  font-size: 11px;
 }
