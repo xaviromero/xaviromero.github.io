@@ -102,3 +102,94 @@ a:active {
   display: inline;
   font-size: 11px;
 }
+
+
+
+
+/* CONTACT */
+
+#bio {
+    width: 50%;
+    margin: 0 auto 60px auto;
+    text-align: justify;
+    text-justify: auto;
+    line-height: 2;
+    font-size: 15px;
+}
+
+.bioimg {
+    margin: 0 50px 20px 0;
+    width: 250px;
+    border-radius: 50%;
+    float: left;
+}
+
+#contact {
+    width: 50%;
+    margin: 0 auto;
+    text-align: right;
+    line-height: 2;
+    font-size: 15px;
+}
+
+.cita {
+    text-align: right;
+}
+
+
+@media only screen and (max-width: 950px) {
+    #bio {
+        width: 75%;
+    }
+    #contact {
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .bioimg {
+        margin: 0;
+        width: 300px;
+        float: none;
+    }
+}
+
+
+
+/* WRENCH */
+
+#wrenchdiv {
+    margin: 50px auto;
+
+    perspective: 850px;
+}
+#wrench {
+    animation: rotate 10s infinite linear;
+}
+@keyframes rotate {
+    100% {
+        transform: rotateY(-360deg);
+    }
+}
+.aviso {
+    color: red;
+}
+
+@media only screen and (max-width: 650px) {
+    #wrenchdiv img {
+        width: 100%;
+    }
+    #wrenchdiv {
+        width: 100%;
+    }
+
+}
+
+
+
+
+/* NOC */
+
+.noc {
+    margin: 150px 0 0 0px;
+
+}
