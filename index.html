@@ -23,7 +23,7 @@
   <!-- CSS Stylesheets -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="icon" href="web-resources/favicon/eye-icon.gif" type="image/gif">
-  <link rel="stylesheet" href="web-resources/css/main.css">
+  <link rel="stylesheet" href="web-resources/css/style.css">
   <link rel="stylesheet" href="web-resources/css/slideshow.css">
 
   <!-- Bootstrap Scripts -->
@@ -82,17 +82,72 @@
         <img src="web-resources/img/portada3.jpg" alt="PORTADA4">
       </div>
       <a class="forward" onclick="plusSlides(1)">&#10095;</a>
-      <div class="indicator">
-        <span class="dot" onclick="currentSlide(1)">
-        </span><span class="dot" onclick="currentSlide(2)">
-        </span><span class="dot" onclick="currentSlide(3)">
-        </span><span class="dot" onclick="currentSlide(4)"></span>
-      </div>
     </div>
 
   </section>
 
   <section id="projects">
+    <div class="row">
+
+      <article class="grid-item col-lg-2">
+        <div class="">
+          <div class="item-img">
+            <a href="work/zero.html">
+              <img class="projects-img" src="web-resources/img/zero.gif" alt="liminal-spaces-img">
+            </a>
+          </div>
+          <h3 class="item-tittle">
+            <a href="work/zero.html">LIMINAL SPACES</a>
+          </h3>
+          <p class="item-info-1">
+            (Work in Progress)
+          </p>
+          <p class="item-info-2">
+            Barcelona 2021
+          </p>
+        </div>
+      </article>
+
+      <article class="grid-item col-lg-2">
+        <div class="">
+          <div class="item-img">
+            <a href="work/last-frame-in-the-buffer.html">
+              <img class="projects-img" src="web-resources/img/last-frame-in-the-buffer.jpg" alt="last-frame-in-the-buffer-img">
+            </a>
+          </div>
+          <h3 class="item-tittle">
+            <a href="work/last-frame-in-the-buffer.html">LAST FRAME IN THE BUFFER</a>
+          </h3>
+          <p class="item-info-1">
+            (Demo) con Mar Sánchez
+          </p>
+          <p class="item-info-2">
+            Barcelona 2021
+          </p>
+        </div>
+      </article>
+
+      <article class="grid-item col-lg-2">
+        <div class="">
+          <div class="item-img">
+            <a href="work/videotex.html">
+              <img class="projects-img" src="web-resources/img/videotex.gif" alt="videotex-img">
+            </a>
+          </div>
+          <h3 class="item-tittle">
+            <a href="work/videotex.html">VIDEOTEX</a>
+          </h3>
+          <p class="item-info-1">
+            con Mar Sánchez
+          </p>
+          <p class="item-info-2">
+            Barcelona 2021
+          </p>
+        </div>
+      </article>
+
+    </div>
+
 
     <div class="container-grid">
       <a class="item" href="work/zero.html" target="_blank" rel="noopener noreferrer">
@@ -159,17 +214,20 @@
 
   </section>
 
-  <ul id="socialbar">
-    <li class="socialitem"><a href="https://instagram.com/_xaviromero" target="_blank" rel="noopener noreferrer"><img src="web-resources/img/instaico.png" alt="INSTAGRAM"></a></li>
-    <li class="socialitem"><a href="https://youtube.com/c/xavierromero" target="_blank" rel="noopener noreferrer"><img src="web-resources/img/ytico.png" alt="YOUTUBE"></a></li>
-    <li class="socialitem"><a href="https://twitter.com/xaviromero_" target="_blank" rel="noopener noreferrer"><img src="web-resources/img/twico.png" alt="TWITTER"></a></li>
-    <li class="socialitem"><a href="https://vimeo.com/xaviromero" target="_blank" rel="noopener noreferrer"><img src="web-resources/img/vimico.png" alt="VIMEO"></a></li>
-  </ul>
 
 
-  <div id="footer">
+  <footer id="footer" style="user-select: none;">
+
+    <!-- Links + Copy -->
+
+    <a href="http://instagram.com/_xaviromero" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+    <a href="http://youtube.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+    <a href="http://twitter.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+    <a href="http://vimeo.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-vimeo"></i></a>
     <p>© 2021. All rights reserved.</p>
-  </div>
+
+  </footer>
+
 </body>
 
 </html>
