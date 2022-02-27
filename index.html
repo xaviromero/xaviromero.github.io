@@ -18,47 +18,116 @@
 </head>
 
 <body>
-  <div id="header">
-    <div id="title">
-      <a href="index.html">XAVI ROMERO v1.0</a> <br>
-      <a id="soon" href="./v-2/index.html"> v2.0 comming soon</a>
-    </div>
-    <div id="navbar">
-      <a class="navbaritem" href="work.html">PROYECTOS</a>
-      <a class="navbaritem" href="expo.html">EXPOSICIONES</a>
-      <a class="navbaritem" href="contact.html">CONTACTO</a>
-      <a class="navbaritem" href="locked.html">LOCKED</a>
-    </div>
-  </div>
+  <section id="title">
 
-
-  <div id="portada-slideshow">
-    <a class="back" onclick="plusSlides(-1)">&#10094;</a>
-    <div class="slides portada">
-      <img src="web-resources/img/portada4.jpg" alt="PORTADA1">
+    <div id="header">
+      <div id="title">
+        <a href="index.html">XAVI ROMERO v1.0</a> <br>
+        <a id="soon" href="./v-2/index.html"> v2.0 comming soon</a>
+      </div>
+      <div id="navbar">
+        <a class="navbaritem" href="#projects">PROYECTOS</a>
+        <a class="navbaritem" href="expo.html">EXPOSICIONES</a>
+        <a class="navbaritem" href="contact.html">CONTACTO</a>
+        <a class="navbaritem" href="locked.html">LOCKED</a>
+      </div>
     </div>
-    <div class="slides">
-      <img src="web-resources/img/portada1.jpg" alt="PORTADA2">
+
+  </section>
+
+  <section id="featured">
+
+    <div id="portada-slideshow">
+      <a class="back" onclick="plusSlides(-1)">&#10094;</a>
+      <div class="slides portada">
+        <img src="web-resources/img/portada4.jpg" alt="PORTADA1">
+      </div>
+      <div class="slides">
+        <img src="web-resources/img/portada1.jpg" alt="PORTADA2">
+      </div>
+      <div class="slides">
+        <img src="web-resources/img/portada2.jpg" alt="PORTADA3">
+      </div>
+      <div class="slides">
+        <img src="web-resources/img/portada3.jpg" alt="PORTADA4">
+      </div>
+      <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+      <div class="indicator">
+        <span class="dot" onclick="currentSlide(1)">
+        </span><span class="dot" onclick="currentSlide(2)">
+        </span><span class="dot" onclick="currentSlide(3)">
+        </span><span class="dot" onclick="currentSlide(4)"></span>
+      </div>
     </div>
-    <div class="slides">
-      <img src="web-resources/img/portada2.jpg" alt="PORTADA3">
+
+  </section>
+
+  <section id="projects">
+
+    <div class="container-grid">
+        <a class="item" href="work/zero.html" target="_blank" rel="noopener noreferrer">
+            <div>
+                <img src="web-resources/img/zero.gif" alt="ZER0 IMG" class="itemimage">
+                <p>LIMINAL SPACES ZER0<br>(work in progress)</p>
+            </div>
+        </a>
+        <a class="item" href="work/last-frame-in-the-buffer.html" target="_blank" rel="noopener noreferrer">
+            <div>
+                <img src="web-resources/img/last-frame-in-the-buffer.jpg" alt="LAST FRAME IN THE BUFFER IMG" class="itemimage">
+                <p>LAST FRAME<br>IN THE BUFFER<br>(DEMO)<br>con Mar Sánchez</p>
+            </div>
+        </a>
+        <a  class="item" href="work/nes.html" target="_blank" rel="noopener noreferrer">
+            <div>
+                <img src="web-resources/img/nes.gif" alt="≠̛̦N̵͋ͅ:̷̠͠:̵̻̓E̴͜͠:̶͔͛:̸̢̾S̸̻͊=̵̘̓  GIF" class="itemimage">
+                <p>≠̛̦N̵͋ͅ:̷̠͠:̵̻̓E̴͜͠:̶͔͛:̸̢̾S̸̻͊=̵̘̓ <br>(work in progress)</p>
+            </div>
+        </a>
+        <a class="item" href="work/videotex.html" target="_blank" rel="noopener noreferrer">
+            <div>
+                <img src="web-resources/img/videotex.gif" alt="VIDEOTEX GIF" class="itemimage">
+                <p>VIDEOTEX<br>con Mar Sánchez</p>
+            </div>
+        </a>
+        <a class="item" href="work/programa-nocturno.html" target="_blank" rel="noopener noreferrer">
+            <div>
+                <img src="web-resources/img/noc.gif" alt="PROGRAMA NOCTURNO IMG" class="itemimage">
+                <p>PROGRAMA NOCTURNO<br>(Exposition at Facultad de Belles Arts Barcelona)</p>
+            </div>
+        </a>
+        <a class="item" href="work/televisions.html" target="_blank" rel="noopener noreferrer">
+            <div>
+                <img src="web-resources/img/televisions.gif" alt="TELE/VISIONS GIF" class="itemimage">
+                <p>TELE/VISIONS<br>con Mar Sánchez</p>
+            </div>
+        </a>
+  <!--    <a class="item" href="work/long-ride.html" target="_blank" rel="noopener noreferrer">
+            <div>
+                <img src="web-resources/img/long-ride-150.gif" alt="LONG RIDE GIF" class="itemimage">
+                <p>LONG RIDE</p>
+            </div>
+        </a>-->
+        <a class="item" href="work/the-girl-chewing-gum-all-at-once.html" target="_blank" rel="noopener noreferrer">
+            <div>
+                <img src="web-resources/img/the-girl-chewing-gum-all-at-once-150.gif" alt="The Girl Chewing Gum All At Once GIF" class="itemimage">
+                <p>The Girl Chewing Gum All At Once</p>
+            </div>
+        </a>
+        <a class="item" href="work/in-a-dream.html" target="_blank" rel="noopener noreferrer">
+            <div>
+                <img src="web-resources/img/in-a-dream-150.gif" alt="In A Dream GIF" class="itemimage">
+                <p>IN A DREAM<br>con Mark Allen Soul & Balas de Agua</p>
+            </div>
+        </a>
+        <a class="item" href="work/219-te-estan-mirando.html" target="_blank" rel="noopener noreferrer">
+            <div>
+                <img src="web-resources/img/219-te-estan-mirando-150.gif" alt="219: Te Están Mirando GIF" class="itemimage">
+                <p>219: TE ESTÁN MIRANDO</p>
+            </div>
+        </a>
     </div>
-    <div class="slides">
-      <img src="web-resources/img/portada3.jpg" alt="PORTADA4">
-    </div>
-    <a class="forward" onclick="plusSlides(1)">&#10095;</a>
-    <div class="indicator">
-      <span class="dot" onclick="currentSlide(1)">
-      </span><span class="dot" onclick="currentSlide(2)">
-      </span><span class="dot" onclick="currentSlide(3)">
-      </span><span class="dot" onclick="currentSlide(4)"></span>
-    </div>
-  </div>
 
-
-
-
-
+  </section>
 
   <ul id="socialbar">
     <li class="socialitem"><a href="https://instagram.com/_xaviromero" target="_blank" rel="noopener noreferrer"><img src="web-resources/img/instaico.png" alt="INSTAGRAM"></a></li>
