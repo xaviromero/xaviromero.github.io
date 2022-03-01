@@ -2,23 +2,38 @@ body {
   height: 100%;
   margin: 50px 0px;
   background-color: black;
-  color: white;
   font-family: monospace;
-  text-align: center;
 }
+
+/* Navbar */
+.navbar {
+  padding: 12.5px 10%;
+}
+
+.navbar-brand {
+  font-family: "Miriam Libre", sans-serif;
+  font-size: 1.5rem;
+}
+
 #soon {
   color: red;
 }
 
-#header {
-  display: inline-block;
-  margin: 0 0 25px 0;
+.nav-item {
+  padding: 0 18px;
 }
-#title {
-  display: inline-block;
-  font-size: 25px;
-  margin-right: 75px;
-  align-self: left;
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+/* Featured */
+#featured {
+    margin: 0px 5.5% 60px 5.5%;
+}
+
+.active a {
+  text-decoration: underline;
 }
 
 a:link {
@@ -38,26 +53,6 @@ a:active {
   text-decoration: none;
 }
 
-#navbar {
-  padding-left: 0;
-  margin: 0 0 35px 0;
-  font-family: monospace;
-  font-size: 15px;
-  list-style-type: none;
-  display: inline-block;
-}
-.navbaritem {
-  display: inline-block;
-  margin: 0 15px;
-}
-.navbaritem a:hover {
-  color: black;
-  background-color: white;
-  text-decoration: none;
-}
-.active a {
-  text-decoration: underline;
-}
 
 .container-grid {
   display: flex;
