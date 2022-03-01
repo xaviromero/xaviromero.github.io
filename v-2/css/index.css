@@ -25,6 +25,11 @@ body {
   font-size: 1.1rem;
 }
 
+.soon {
+  color: red;
+  border-radius: 50%;
+}
+
 /* Featured */
 #featured {
     margin: 0px 5.5% 60px 5.5%;
