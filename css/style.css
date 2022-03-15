@@ -41,7 +41,22 @@ body {
   padding: 80px 125px;
 }
 
-
+.article {
+  padding: 25px;
+}
+.article-body {
+  padding-bottom: 30px;
+}
+.article-img {
+  width: 150px;
+  margin-bottom: 30px;
+}
+.article-title{
+  margin-bottom: 10px;
+}
+.item-info{
+  margin-bottom: 5px;
+}
 
 .active a {
   text-decoration: underline;
